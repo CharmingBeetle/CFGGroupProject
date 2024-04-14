@@ -130,6 +130,7 @@ def game():
       game()
     elif play_again_answer == 'No':
       print('Thank you for playing! Goodbye for now')
+      exit()
 
 
 game()
